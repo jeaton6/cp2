@@ -1,0 +1,30 @@
+.space {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.poke-font {
+  font-family: monospace;
+}
+
+.pokemon-pic {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.showcase-item {
+  padding-top: 0;
+  margin-top: 0;
+  width: 350px;
+  padding: 6px;
+}

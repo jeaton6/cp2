@@ -3,7 +3,7 @@
 document.getElementById("go").addEventListener("click", function(event) {
   event.preventDefault();
   const url = "https://pokeapi.co/api/v2/pokemon/" +
-    document.getElementById("poke-search").value;
+    document.getElementById("poke-search").value.toLowerCase();
   fetch(url)
       .then(function(response) {
           return response.json();
